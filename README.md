@@ -3,6 +3,8 @@ This is a template web application built with VueJS and Laravel. Feel free to co
 
 Before you begin with the setup, make sure you have [NodeJS](https://nodejs.org/en/download) and [Composer](https://getcomposer.org/download/) installed on your machine.
 
+Assume that you have also run the XAMPP server (or similar local server with mySQL module) on your machine.
+
 ### Begin Installation
 
 ```
@@ -24,6 +26,20 @@ Wait until the laravel installation is complete. While waiting, go to your windo
 ```
 127.0.0.1 growmeapi.local
 ```
+
+Also, update the laravel ".env" file at the "api" root folder:
+
+```
+APP_URL=http://growmeapi.local:8000
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=growmeapi
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Create a database on XAMPP's phpmyadmin and name it `growmeapi`.
 
 After laravel installation, run the commands below:
 
