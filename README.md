@@ -14,7 +14,7 @@ git clone https://github.com/younghandsome31/growme.git
 ## On Windows
 
 ### Begin Setup for API side (Laravel)
-Go to the project root directory ("growme" folder) and run the commands:
+Open a terminal. Go to the project root directory `cd C:\path\to\your\project\growme` and run the commands:
 
 ```
 cd api
